@@ -21,7 +21,7 @@ No, there is no more documentation of this, and also this does not seem to be cu
 Each recipients file MUST contain at least one recipient definition line; the file MAY contain any number of empty lines, comment lines, and recipient definition lines.
 
 Comment lines are lines starting with `#`.
-Recipient definitions start with an e-mail address in the form of `user@example.com`, followed by whitespace, followed by full key fingerprint without spaces (`0123456789ABCDEF012345678ABCDEF012345678`)
+Recipient definitions start with an e-mail address in the form of `user@example.com`, followed by whitespace, followed by full key fingerprint without spaces (`0123456789ABCDEF012345678ABCDEF012345678`) and a newline. 
 
 Recipient files other than `default` define encryption keys for subdirectories of the `keys/` subdirectory. So, an `example-team-one` recipient file MUST be used as source of encryption keys for all secrets in the `keys/example-team-one/` subdirectory. For any subdirectory (like `keys/example-team-one/`), if a corresponding recipients file exists (like `example-team-one`), all secrets in that subdirectory MUST be encrypted using ONLY the keys from that corresponding recipients file.
 
