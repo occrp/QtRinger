@@ -10,11 +10,18 @@ The keyring repository MUST contain:
 
 ### `options` file
 
-Repository options are settings which are saved in the repository as a global configuration stanza for a given keyring, shared by all users with access to the repository.
+From the keyringer manpage:
 
-Options are written using the `KEY=VALUE` syntax. All lines starting with the hash (#) character are interpreted as comments.
+```
+Repository options are settings which are saved in the repository as a
+global configuration stanza for a given keyring, shared by all users with
+access to the repository.
 
-No, there is no more documentation of this, and also this does not seem to be currently used in any way in `keyringer`.
+Options are written using the `KEY=VALUE` syntax. All lines starting with
+the hash (#) character are interpreted as comments.
+```
+
+There sadly is no more documentation of this available, and also this does not seem to be currently used in any way in `keyringer`.
 
 ### Recipients files
 
