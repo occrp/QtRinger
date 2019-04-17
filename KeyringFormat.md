@@ -1,6 +1,19 @@
 # Keyring format
 
-Initialized empty keyring:
+The keyring repository MUST contain:
+ - a `README` file with explanation of what this repository is;
+ - a `config/` subdirectory, containing:
+   - an `options` file (see: [`Options file`](#options-file));
+   - a `version` file, containing the string `0.1` followed by a newline;
+   - a `recipients/` subdirectory containing at least a `default` recipients file (it MAY contain more recipients files; see [#recipients-files](#recipients-files))
+
+### `options` file
+
+### Recipients files
+
+Each recipients file contains empty lines, comment lines, and recipient definitions.
+
+## Initialized empty keyring
 
 ```
 $ tree
@@ -19,6 +32,9 @@ Author: A. User <user@example.com>
 Date:   Wed Apr 17 22:49:01 2019 +0200
 
     Initializing
+
+$ cat README 
+Keyring repository powered by https://keyringer.pw
 
 $ cat config/version 
 0.1
