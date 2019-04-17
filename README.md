@@ -5,17 +5,20 @@ A PyQt-based GUI for `keyringer`.
 ## Implemented functionality:
 
 Keyringer commands:
- - [ ] `append` / `append-batch`
+
+ - encrypting/decrypting/displaying/editing a secret
+    - [ ] `append` / `append-batch`
+    - [ ] `decrypt`
+    - [ ] `edit` / `open`
+    - [ ] `encrypt` / `encrypt-batch`
+ - copying a secret
+    - [ ] `clip` / `xclip`
  - [ ] `check`
- - [ ] `clip` / `xclip`
  - [ ] `commands`
  - [ ] `commit`
  - [ ] `cp`
- - [ ] `decrypt`
  - [ ] `del` / `delete` / `rm`
  - [ ] `destroy` / `teardown`
- - [ ] `edit` / `open`
- - [ ] `encrypt` / `encrypt-batch`
  - [ ] `find`
  - [ ] `genkeys` / `genpair`
  - [ ] `git`
