@@ -35,3 +35,5 @@ Keyringer commands:
  - [ ] `sclip`
  - [ ] `shell`
  - [ ] `tree`
+
+Specifications are [here](SPECS.md).
